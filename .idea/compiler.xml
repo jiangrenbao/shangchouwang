@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-reverse" />
+        <module name="common-util" />
+        <module name="component" />
+        <module name="entity" />
+        <module name="webui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="common-reverse" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="component" target="1.8" />
+      <module name="entity" target="1.8" />
+      <module name="parent" target="8" />
+      <module name="webui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
